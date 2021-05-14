@@ -1,0 +1,14 @@
+const firstYear = 15;
+const secondYear = 9;
+const otherYear = 5;
+
+const dogAge = 10;
+
+if (dogAge === 1) {
+    console.log('15 años humanos')
+} else if (dogAge === 2) {
+    console.log('24 años humanos')
+}
+else {
+    console.log((firstYear+secondYear+(dogAge-2)*otherYear) + ' años humanos')
+}
