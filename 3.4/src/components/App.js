@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <MediaCard />
+        <input type="text"></input>
         <p>
-          Holii
         </p>
         
       </header>
